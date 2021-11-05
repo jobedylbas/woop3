@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4635B3002733F696003F329B /* DataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635B2FF2733F696003F329B /* DataTask.swift */; };
 		4640E87B273071100004242C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4640E87A273071100004242C /* AppDelegate.swift */; };
 		4640E87D273071100004242C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4640E87C273071100004242C /* SceneDelegate.swift */; };
-		4640E87F273071100004242C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4640E87E273071100004242C /* ViewController.swift */; };
+		4640E87F273071100004242C /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4640E87E273071100004242C /* EventListViewController.swift */; };
 		4640E882273071100004242C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4640E880273071100004242C /* Main.storyboard */; };
 		4640E884273071150004242C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4640E883273071150004242C /* Assets.xcassets */; };
 		4640E887273071150004242C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4640E885273071150004242C /* LaunchScreen.storyboard */; };
 		4640E892273071150004242C /* WoopSicredi3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4640E891273071150004242C /* WoopSicredi3Tests.swift */; };
 		4640E89C273071150004242C /* WoopSicredi3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4640E89B273071150004242C /* WoopSicredi3UITests.swift */; };
 		4640E89E273071150004242C /* WoopSicredi3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4640E89D273071150004242C /* WoopSicredi3UITestsLaunchTests.swift */; };
+		4692BCA52734991600FBB56B /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692BCA42734991600FBB56B /* EventDetailViewController.swift */; };
+		4692BCA727349B4700FBB56B /* EventDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692BCA627349B4700FBB56B /* EventDetailViewModel.swift */; };
+		4692BCAB2734BAD900FBB56B /* EventDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4692BCAA2734BAD900FBB56B /* EventDetailTableViewCell.xib */; };
+		4692BCAE2734BC1600FBB56B /* EventDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692BCAD2734BC1600FBB56B /* EventDetailTableViewCell.swift */; };
+		4692BCB22734C1AD00FBB56B /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692BCB12734C1AD00FBB56B /* UIImage.swift */; };
+		4692BCB62734D09E00FBB56B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692BCB52734D09E00FBB56B /* Error.swift */; };
+		4692BCB82734D1AC00FBB56B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692BCB72734D1AC00FBB56B /* Constants.swift */; };
+		4699E9E9273076B40027944B /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4699E9E8273076B40027944B /* EventTableViewCell.xib */; };
+		4699E9EB273076C40027944B /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699E9EA273076C40027944B /* EventTableViewCell.swift */; };
+		4699E9ED273076D70027944B /* EventTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699E9EC273076D70027944B /* EventTableViewCellViewModel.swift */; };
+		4699E9F12730841B0027944B /* EventAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699E9F02730841B0027944B /* EventAPIManager.swift */; };
+		4699E9F3273088E70027944B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699E9F2273088E70027944B /* Event.swift */; };
+		4699E9F62730931F0027944B /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699E9F52730931F0027944B /* EventListViewModel.swift */; };
+		A4EA266DD04C3DF4AAFCD28F /* Pods_WoopSicredi3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9742771B20C518B0EC4CCB /* Pods_WoopSicredi3.framework */; };
+		D7BDBDCC074519537BB5721E /* Pods_WoopSicredi3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056304B39A43094255B60BCD /* Pods_WoopSicredi3Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		056304B39A43094255B60BCD /* Pods_WoopSicredi3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoopSicredi3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		186BF56C4B8323028D1B53F5 /* Pods-WoopSicredi3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoopSicredi3Tests.release.xcconfig"; path = "Target Support Files/Pods-WoopSicredi3Tests/Pods-WoopSicredi3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4635B2FF2733F696003F329B /* DataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTask.swift; sourceTree = "<group>"; };
 		4640E877273071100004242C /* WoopSicredi3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoopSicredi3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4640E87A273071100004242C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4640E87C273071100004242C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4640E87E273071100004242C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4640E87E273071100004242C /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 		4640E881273071100004242C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4640E883273071150004242C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4640E886273071150004242C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,23 @@
 		4640E897273071150004242C /* WoopSicredi3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoopSicredi3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4640E89B273071150004242C /* WoopSicredi3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoopSicredi3UITests.swift; sourceTree = "<group>"; };
 		4640E89D273071150004242C /* WoopSicredi3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoopSicredi3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4692BCA42734991600FBB56B /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		4692BCA627349B4700FBB56B /* EventDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewModel.swift; sourceTree = "<group>"; };
+		4692BCAA2734BAD900FBB56B /* EventDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventDetailTableViewCell.xib; sourceTree = "<group>"; };
+		4692BCAD2734BC1600FBB56B /* EventDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailTableViewCell.swift; sourceTree = "<group>"; };
+		4692BCB12734C1AD00FBB56B /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		4692BCB52734D09E00FBB56B /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		4692BCB72734D1AC00FBB56B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4699E9E8273076B40027944B /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		4699E9EA273076C40027944B /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		4699E9EC273076D70027944B /* EventTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		4699E9F02730841B0027944B /* EventAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAPIManager.swift; sourceTree = "<group>"; };
+		4699E9F2273088E70027944B /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4699E9F52730931F0027944B /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		6D9742771B20C518B0EC4CCB /* Pods_WoopSicredi3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoopSicredi3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82053D532FFC1760DDAECE7A /* Pods-WoopSicredi3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoopSicredi3Tests.debug.xcconfig"; path = "Target Support Files/Pods-WoopSicredi3Tests/Pods-WoopSicredi3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A090F8F3A8673D24856144DC /* Pods-WoopSicredi3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoopSicredi3.debug.xcconfig"; path = "Target Support Files/Pods-WoopSicredi3/Pods-WoopSicredi3.debug.xcconfig"; sourceTree = "<group>"; };
+		DFD2E25B296F194A37F2C370 /* Pods-WoopSicredi3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoopSicredi3.release.xcconfig"; path = "Target Support Files/Pods-WoopSicredi3/Pods-WoopSicredi3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EA266DD04C3DF4AAFCD28F /* Pods_WoopSicredi3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7BDBDCC074519537BB5721E /* Pods_WoopSicredi3Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +114,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4635B3012733F70E003F329B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4635B2FF2733F696003F329B /* DataTask.swift */,
+				4692BCB12734C1AD00FBB56B /* UIImage.swift */,
+				4692BCB52734D09E00FBB56B /* Error.swift */,
+				4692BCB72734D1AC00FBB56B /* Constants.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		4640E86E273071100004242C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +132,8 @@
 				4640E890273071150004242C /* WoopSicredi3Tests */,
 				4640E89A273071150004242C /* WoopSicredi3UITests */,
 				4640E878273071100004242C /* Products */,
+				7B5586217AFBE862350A7891 /* Pods */,
+				DB6E5A79A4F187F60FA653FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +150,14 @@
 		4640E879273071100004242C /* WoopSicredi3 */ = {
 			isa = PBXGroup;
 			children = (
-				4640E87A273071100004242C /* AppDelegate.swift */,
-				4640E87C273071100004242C /* SceneDelegate.swift */,
-				4640E87E273071100004242C /* ViewController.swift */,
-				4640E880273071100004242C /* Main.storyboard */,
+				4635B3012733F70E003F329B /* Shared */,
+				4699E9F4273090910027944B /* EventDetail */,
+				4699E9EF273079430027944B /* Model */,
+				4699E9EE273076FE0027944B /* Network */,
+				46A668212730750A00D0352A /* Support */,
+				4699E9E6273076740027944B /* EventList */,
 				4640E883273071150004242C /* Assets.xcassets */,
 				4640E885273071150004242C /* LaunchScreen.storyboard */,
-				4640E888273071150004242C /* Info.plist */,
 			);
 			path = WoopSicredi3;
 			sourceTree = "<group>";
@@ -127,6 +179,92 @@
 			path = WoopSicredi3UITests;
 			sourceTree = "<group>";
 		};
+		4692BCAC2734BBFB00FBB56B /* EventDetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				4692BCAA2734BAD900FBB56B /* EventDetailTableViewCell.xib */,
+				4692BCAD2734BC1600FBB56B /* EventDetailTableViewCell.swift */,
+			);
+			path = EventDetailCell;
+			sourceTree = "<group>";
+		};
+		4699E9E6273076740027944B /* EventList */ = {
+			isa = PBXGroup;
+			children = (
+				4699E9E72730769D0027944B /* EventCell */,
+				4640E87E273071100004242C /* EventListViewController.swift */,
+				4699E9F52730931F0027944B /* EventListViewModel.swift */,
+				4640E880273071100004242C /* Main.storyboard */,
+			);
+			path = EventList;
+			sourceTree = "<group>";
+		};
+		4699E9E72730769D0027944B /* EventCell */ = {
+			isa = PBXGroup;
+			children = (
+				4699E9E8273076B40027944B /* EventTableViewCell.xib */,
+				4699E9EA273076C40027944B /* EventTableViewCell.swift */,
+				4699E9EC273076D70027944B /* EventTableViewCellViewModel.swift */,
+			);
+			path = EventCell;
+			sourceTree = "<group>";
+		};
+		4699E9EE273076FE0027944B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4699E9F02730841B0027944B /* EventAPIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4699E9EF273079430027944B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4699E9F2273088E70027944B /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4699E9F4273090910027944B /* EventDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4692BCAC2734BBFB00FBB56B /* EventDetailCell */,
+				4692BCA42734991600FBB56B /* EventDetailViewController.swift */,
+				4692BCA627349B4700FBB56B /* EventDetailViewModel.swift */,
+			);
+			path = EventDetail;
+			sourceTree = "<group>";
+		};
+		46A668212730750A00D0352A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4640E87C273071100004242C /* SceneDelegate.swift */,
+				4640E87A273071100004242C /* AppDelegate.swift */,
+				4640E888273071150004242C /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		7B5586217AFBE862350A7891 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A090F8F3A8673D24856144DC /* Pods-WoopSicredi3.debug.xcconfig */,
+				DFD2E25B296F194A37F2C370 /* Pods-WoopSicredi3.release.xcconfig */,
+				82053D532FFC1760DDAECE7A /* Pods-WoopSicredi3Tests.debug.xcconfig */,
+				186BF56C4B8323028D1B53F5 /* Pods-WoopSicredi3Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB6E5A79A4F187F60FA653FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D9742771B20C518B0EC4CCB /* Pods_WoopSicredi3.framework */,
+				056304B39A43094255B60BCD /* Pods_WoopSicredi3Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4640E8A1273071150004242C /* Build configuration list for PBXNativeTarget "WoopSicredi3" */;
 			buildPhases = (
+				4486EE0F88AC42047DF644A2 /* [CP] Check Pods Manifest.lock */,
 				4640E873273071100004242C /* Sources */,
 				4640E874273071100004242C /* Frameworks */,
 				4640E875273071100004242C /* Resources */,
+				62D609A56FEDE064F869CC4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4640E8A4273071150004242C /* Build configuration list for PBXNativeTarget "WoopSicredi3Tests" */;
 			buildPhases = (
+				3AED5B4292C980919EE99268 /* [CP] Check Pods Manifest.lock */,
 				4640E889273071150004242C /* Sources */,
 				4640E88A273071150004242C /* Frameworks */,
 				4640E88B273071150004242C /* Resources */,
+				C172B1B4CA0F6F894661E74E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +373,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4699E9E9273076B40027944B /* EventTableViewCell.xib in Resources */,
 				4640E887273071150004242C /* LaunchScreen.storyboard in Resources */,
+				4692BCAB2734BAD900FBB56B /* EventDetailTableViewCell.xib in Resources */,
 				4640E884273071150004242C /* Assets.xcassets in Resources */,
 				4640E882273071100004242C /* Main.storyboard in Resources */,
 			);
@@ -253,14 +397,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AED5B4292C980919EE99268 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoopSicredi3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4486EE0F88AC42047DF644A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoopSicredi3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62D609A56FEDE064F869CC4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoopSicredi3/Pods-WoopSicredi3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoopSicredi3/Pods-WoopSicredi3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WoopSicredi3/Pods-WoopSicredi3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C172B1B4CA0F6F894661E74E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoopSicredi3Tests/Pods-WoopSicredi3Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoopSicredi3Tests/Pods-WoopSicredi3Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WoopSicredi3Tests/Pods-WoopSicredi3Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4640E873273071100004242C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4640E87F273071100004242C /* ViewController.swift in Sources */,
+				4699E9ED273076D70027944B /* EventTableViewCellViewModel.swift in Sources */,
+				4640E87F273071100004242C /* EventListViewController.swift in Sources */,
 				4640E87B273071100004242C /* AppDelegate.swift in Sources */,
+				4635B3002733F696003F329B /* DataTask.swift in Sources */,
+				4699E9F12730841B0027944B /* EventAPIManager.swift in Sources */,
+				4692BCB82734D1AC00FBB56B /* Constants.swift in Sources */,
+				4692BCAE2734BC1600FBB56B /* EventDetailTableViewCell.swift in Sources */,
 				4640E87D273071100004242C /* SceneDelegate.swift in Sources */,
+				4692BCA727349B4700FBB56B /* EventDetailViewModel.swift in Sources */,
+				4692BCA52734991600FBB56B /* EventDetailViewController.swift in Sources */,
+				4699E9F62730931F0027944B /* EventListViewModel.swift in Sources */,
+				4699E9F3273088E70027944B /* Event.swift in Sources */,
+				4692BCB22734C1AD00FBB56B /* UIImage.swift in Sources */,
+				4692BCB62734D09E00FBB56B /* Error.swift in Sources */,
+				4699E9EB273076C40027944B /* EventTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +671,7 @@
 		};
 		4640E8A2273071150004242C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A090F8F3A8673D24856144DC /* Pods-WoopSicredi3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,12 +679,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z39J8HS946;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WoopSicredi3/Info.plist;
+				INFOPLIST_FILE = WoopSicredi3/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,12 +696,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4640E8A3273071150004242C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD2E25B296F194A37F2C370 /* Pods-WoopSicredi3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,12 +710,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z39J8HS946;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WoopSicredi3/Info.plist;
+				INFOPLIST_FILE = WoopSicredi3/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,14 +727,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		4640E8A5273071150004242C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82053D532FFC1760DDAECE7A /* Pods-WoopSicredi3Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -515,8 +758,8 @@
 		};
 		4640E8A6273071150004242C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186BF56C4B8323028D1B53F5 /* Pods-WoopSicredi3Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -541,7 +784,6 @@
 		4640E8A8273071150004242C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z39J8HS946;
@@ -564,7 +806,6 @@
 		4640E8A9273071150004242C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z39J8HS946;
